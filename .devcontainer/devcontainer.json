@@ -18,7 +18,10 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements.txt",
+	"postCreateCommand": "sudo add-apt-repository ppa:mc3man/trusty-media",
+	"postCreateCommand": "sudo apt-get update",
+	"postCreateCommand": "sudo apt-get install ffmpeg",
+	"postCreateCommand": "pip install -r Labs/requirements.txt",
 	"customizations": {
 		"vscode": {
 			"extensions": [
