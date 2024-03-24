@@ -9,4 +9,4 @@ gstreamer1.0-plugins-good \
 gstreamer1.0-plugins-bad \
 gstreamer1.0-plugins-ugly -y
 
-pip install -r ../Labs/requirements.txt
+pip install -r ./Labs/requirements.txt
